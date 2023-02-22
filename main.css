@@ -5,7 +5,7 @@
   background-color: var(--black);
   color: white;
 }
-/* TEMPORAY ROOT KIT  */
+/* TEMPORARY ROOT KIT  */
 :root{
   /* TEXT */
   --txt0: #e8eaed;
@@ -15,13 +15,23 @@
   --txt4: #6a6a6a;
   --txt5: #4d4d4d;
   /* COLORS */
-  --blue: rgb(32, 86, 210);
+  --blue:  rgb(11, 7, 240);
   --blue1: rgb(117, 211, 242);
+  --blue2: rgb(86, 148, 236);
   --green: rgb(38, 191, 38);
+  --green1: rgb(71, 182, 71);
+  --green2: rgb(4, 81, 4);
   --yellow: rgb(248, 232, 89);
+  --yellow1: rgb(247, 198, 37);
   --red: rgb(247, 65, 9);
+  --red1: rgb(143, 30, 30);
+  --red2: rgb(140, 73, 56);
+  --black0: black;
   --black: rgb(35, 35, 35);
+  --black1: rgb(31, 39, 27);
   --grey: rgb(71, 70, 70);
+  --grey1: rgb(67, 52, 52);
+  --grey2: rgb(42, 40, 40);
 }
 
 .main-wrapper{
