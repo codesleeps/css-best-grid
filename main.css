@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--black);
+  color: white;
+}
+/* TEMPORAY ROOT KIT  */
+:root{
+  /* TEXT */
+  --txt0: #e8eaed;
+  --txt1: #c6cbd2;
+  --txt2: #b1b4b8;
+  --txt3: #828384;
+  --txt4: #6a6a6a;
+  --txt5: #4d4d4d;
+  /* COLORS */
+  --blue: rgb(32, 86, 210);
+  --blue1: rgb(117, 211, 242);
+  --green: rgb(38, 191, 38);
+  --yellow: rgb(248, 232, 89);
+  --red: rgb(247, 65, 9);
+  --black: rgb(35, 35, 35);
+  --grey: rgb(71, 70, 70);
+}
+
+.main-wrapper{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 12px;
+}
+
+.one{
+  grid-column: 1 / 8;
+  grid-row: 1;
+  border: 6px solid red;
+  background-color: black;
+}
+.two{
+  grid-column: 1 / 3;
+  grid-row: 6 / 10;
+  background-color: var(--green);
+  border: 4px solid rgb(169, 169, 43);
+
+}
+.three{
+  grid-column: 5 / 8;
+  grid-row: 6 / 10;
+  border: 4px solid blue;
+  background-color: purple;
+}
+
+.four{
+  grid-column: 1 / 8;
+  grid-row: 2 / 6;
+  border: 5px solid rgb(253, 255, 253);
+  background-color: rgb(162, 255, 0);
+}
+
+.five{
+  grid-column: 3 / 5;
+  grid-row: 6 / 10;
+  border: 4px solid violet;
+  background-color: turquoise;
+  
+}
+
+.six{
+  grid-column: 1 / 5;
+  grid-row: 10;
+  border: 4px solid white;
+}
+
+.seven{
+  grid-column: 5 / 8;
+  grid-row: 10;
+  border: 4px solid turquoise;
+}
+
+.eight{
+  grid-column: 1 / 8;
+  grid-row: 12;
+  border: 4px solid white;
+}
+
+.nine{
+  grid-column: 1 / 8;
+  grid-row: 14;
+  border: 4px solid white;
+}
+
+.ten{
+  grid-column: 1 / 3 ;
+  grid-row: 2 / 6;
+  border: 4px solid rgb(247, 241, 241); 
+  margin:  5%;
+  background:
+  linear-gradient(to left,
+      rgb(235, 22, 239),
+      rgb(18, 17, 17));
+}
+
+.eleven{
+  grid-column: 3 / 5;
+  grid-row: 2 / 6;
+  border: 4px solid rgb(252, 254, 255); 
+  margin:  5%; 
+  background:
+  linear-gradient(to left,
+      rgb(252, 49, 3),
+      rgb(18, 17, 17));
+}
+
+.twelve{
+  grid-column: 5 / 8;
+  grid-row: 2 / 6;
+  border: 4px solid rgb(250, 246, 250);
+  margin:  5%;
+  background:
+  linear-gradient(to right,
+      rgb(167, 221, 4),
+      rgb(11, 7, 240));
+
+}
+.thirteen{
+  grid-column: 1 / 3;
+  grid-row: 6 / 10 ;
+  margin: 5%;
+  border: 4px solid white; 
+  background-color: rgb(212, 62, 62);
+
+}
+.fourteen{
+  grid-column: 3 / 5;
+  grid-row: 6 / 10 ;
+  margin: 5%;
+  border: 4px solid white; 
+  background:
+  linear-gradient(to right,
+      rgb(7, 189, 213),
+      rgb(42, 75, 175));
+
+}
+
+.fifteen{
+  grid-column: 5 / 8;
+  grid-row: 6 / 10;
+  margin: 5%;
+  border: 4px solid white; 
+  background-color: lightgreen;
+}
